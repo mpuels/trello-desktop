@@ -1,5 +1,9 @@
 # Trello Desktop
 
+This repo is just a copy of https://github.com/madole/trello-desktop. The original repo
+also contains binaries and hence has 187MB when unpacked. I created this repo and only
+added the actual source files.
+
 **Clone and run to get the trello app on your desktop.**
 
 ![Imgur](http://i.imgur.com/1y0ifjp.png)
