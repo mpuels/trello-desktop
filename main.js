@@ -1,6 +1,7 @@
 'use strict';
 
 const electron = require('electron');
+var path = require('path');
 // Module to control application life.
 const app = electron.app;
 // Module to create native browser window.
@@ -12,7 +13,13 @@ let mainWindow;
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600, icon: './assets/icon.icns', 'node-integration': false});
+  mainWindow = new BrowserWindow(
+    {
+      width: 800, height: 600,
+      icon: path.join(__dirname, 'assets', 'icons', 'png', '64x64.png'),
+      'node-integration': false
+    }
+  );
 
   // and load the index.html of the app.
   mainWindow.loadURL('http://trello.com/login');
