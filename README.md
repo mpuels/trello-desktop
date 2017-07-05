@@ -19,9 +19,14 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 git clone https://github.com/madole/trello-desktop
 # Go into the repository
 cd trello-desktop
-# Install dependencies and run the app
-npm install && npm start
+# Install dependencies
+npm install
+# Run the app
+npm start
 ```
+
+On Ubuntu the icon of this app will show a question mark on a grey square.
+To change the icon use `menulibre`.
 
 **Disclosure**
 
